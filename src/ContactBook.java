@@ -173,6 +173,7 @@ public class ContactBook {
             System.out.println("************************************");
             System.out.print("Please enter a command: ");
             String command = scanner.nextLine();
+            command = command.toUpperCase();
 
             switch (command) {
                 case "A":
